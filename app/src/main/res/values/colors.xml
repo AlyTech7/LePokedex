@@ -2,4 +2,36 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray_text">#FF444444</color>
+    <color name="gray_hint">#FF888888</color>
+    <color name="gray_border">#FF333333</color>
+
+    <!-- Paleta Pokédex clásica -->
+    <color name="pokedex_red">#FFE3350D</color>
+    <color name="pokedex_red_dark">#FFCC0000</color>
+    <color name="pokedex_cream">#FFFFF8E7</color>
+    <color name="pokedex_blue">#FF28A8EB</color>
+    <color name="pokedex_blue_dark">#FF1B7DB8</color>
+    <color name="pokedex_yellow">#FFFFCB05</color>
+    <color name="pokedex_green">#FF4CAF50</color>
+
+    <color name="bg_screen">@color/pokedex_cream</color>
+    <color name="title_red">@color/pokedex_red</color>
+
+    <!-- Banners (mismo diseño, tono Pokédex) -->
+    <color name="banner_new">#FF7EB6E9</color>
+    <color name="banner_edit">#FFFFB347</color>
+
+    <!-- Tipos (filas lista) -->
+    <color name="type_electric">#FFFFE082</color>
+    <color name="type_grass">#FFA5D6A7</color>
+    <color name="type_water">#FF90CAF9</color>
+    <color name="type_fire">#FFFFAB91</color>
+    <color name="type_normal">#FFE0E0E0</color>
+
+    <!-- Stats -->
+    <color name="stat_hp">#FF28A8EB</color>
+    <color name="stat_attack">#FFE3350D</color>
+    <color name="stat_defense">#FF4CAF50</color>
+    <color name="stat_speed">#FFFFCB05</color>
 </resources>
