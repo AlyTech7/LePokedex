@@ -1,3 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LePokedex</string>
+    <string name="title_lepokedex">Le Pokedex</string>
+
+    <string name="new_pokemon">New Pokemon</string>
+    <string name="edit_pokemon">Edit Pokemon</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_hp">HP</string>
+    <string name="hint_attack">Attack</string>
+    <string name="hint_speed">Speed</string>
+    <string name="hint_defense">Defense</string>
+    <string name="hint_type">Type</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_filter">Filter</string>
+    <string name="btn_new_pokemon">New Pokemon</string>
+
+    <string name="pokemon_name_placeholder">Name</string>
+    <string name="pokemon_type_format">Type: %1$s</string>
+    <string name="pokemon_image_desc">Imagen del tipo de Pokémon</string>
+
+    <string-array name="pokemon_types">
+        <item>Electric</item>
+        <item>Fire</item>
+        <item>Water</item>
+        <item>Grass</item>
+        <item>Normal</item>
+    </string-array>
 </resources>
