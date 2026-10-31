@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Pokemon implements Serializable {
     private int id;
     private String nombre;
-    private String tipo;
+    private TipoPokemon tipo;
     private int hp;
     private int ataque;
     private int defensa;
@@ -15,7 +15,7 @@ public class Pokemon implements Serializable {
     public Pokemon() {
     }
 
-    public Pokemon(int id, String nombre, String tipo, int hp, int ataque, int defensa, int velocidad) {
+    public Pokemon(int id, String nombre, TipoPokemon tipo, int hp, int ataque, int defensa, int velocidad) {
         this.id = id;
         this.nombre = nombre;
         this.tipo = tipo;
@@ -41,11 +41,11 @@ public class Pokemon implements Serializable {
         this.nombre = nombre;
     }
 
-    public String getTipo() {
+    public TipoPokemon getTipo() {
         return tipo;
     }
 
-    public void setTipo(String tipo) {
+    public void setTipo(TipoPokemon tipo) {
         this.tipo = tipo;
     }
 
