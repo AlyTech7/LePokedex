@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import es.iesrodmarin.lepokedex.R;
 
-/** Pantalla 3: Edit Pokemon */
 public class EditPokemonActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +14,5 @@ public class EditPokemonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_pokemon);
 
-        Button btnBack = findViewById(R.id.btnBack);
-        btnBack.setOnClickListener(v -> finish());
     }
 }

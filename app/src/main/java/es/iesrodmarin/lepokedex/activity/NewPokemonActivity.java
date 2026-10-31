@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import es.iesrodmarin.lepokedex.R;
 
-/** Pantalla 4: New Pokemon */
 public class NewPokemonActivity extends AppCompatActivity {
 
     @Override
@@ -15,7 +14,5 @@ public class NewPokemonActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_pokemon);
 
-        Button btnBack = findViewById(R.id.btnBack);
-        btnBack.setOnClickListener(v -> finish());
     }
 }
