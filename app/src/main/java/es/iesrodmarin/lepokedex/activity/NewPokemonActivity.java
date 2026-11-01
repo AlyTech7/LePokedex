@@ -13,6 +13,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import es.iesrodmarin.lepokedex.R;
+import es.iesrodmarin.lepokedex.model.TipoPokemon;
 
 public class NewPokemonActivity extends AppCompatActivity {
 
@@ -46,7 +47,8 @@ public class NewPokemonActivity extends AppCompatActivity {
                 }
 
                 String nombre = etName.getText().toString().trim();
-                String tipo = spType.getSelectedItem().toString();
+                TipoPokemon tipo = TipoPokemon.valueOf(
+                        spType.getSelectedItem().toString().trim().toUpperCase());
                 int hp = Integer.parseInt(etHp.getText().toString().trim());
                 int ataque = Integer.parseInt(etAttack.getText().toString().trim());
                 int defensa = Integer.parseInt(etDefense.getText().toString().trim());
