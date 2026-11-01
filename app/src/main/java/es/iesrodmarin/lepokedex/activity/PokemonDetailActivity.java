@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -14,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import es.iesrodmarin.lepokedex.R;
 import es.iesrodmarin.lepokedex.model.Pokemon;
-import es.iesrodmarin.lepokedex.util.TypeUtils;
 
 public class PokemonDetailActivity extends AppCompatActivity {
 
@@ -31,7 +29,6 @@ public class PokemonDetailActivity extends AppCompatActivity {
         TextView tvAttack = findViewById(R.id.tvAttack);
         TextView tvDefense = findViewById(R.id.tvDefense);
         TextView tvSpeed = findViewById(R.id.tvSpeed);
-        ImageView ivPokemonType = findViewById(R.id.ivPokemonType);
         Button btnSave = findViewById(R.id.btnSave);
         Button btnDelete = findViewById(R.id.btnDelete);
         Button btnBack = findViewById(R.id.btnBack);
@@ -48,7 +45,6 @@ public class PokemonDetailActivity extends AppCompatActivity {
         tvAttack.setText("Attack: " + p.getAtaque());
         tvDefense.setText("Defense: " + p.getDefensa());
         tvSpeed.setText("Speed: " + p.getVelocidad());
-        ivPokemonType.setImageResource(TypeUtils.getTypeImage(p.getTipo()));
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
