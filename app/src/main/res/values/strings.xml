@@ -28,6 +28,5 @@
         <item>Fire</item>
         <item>Water</item>
         <item>Grass</item>
-        <item>Normal</item>
     </string-array>
 </resources>
