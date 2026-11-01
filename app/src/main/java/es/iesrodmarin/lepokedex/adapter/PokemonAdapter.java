@@ -26,6 +26,18 @@ public class PokemonAdapter extends ArrayAdapter<Pokemon> {
             convertView = layoutInflater.inflate(R.layout.item_pokemon, parent, false);
         }
 
+        TextView tvItemName = convertView.findViewById(R.id.tvItemName);
+        TextView tvItemHp = convertView.findViewById(R.id.tvItemHp);
+        TextView tvItemAttack = convertView.findViewById(R.id.tvItemAttack);
+        TextView tvItemDefense = convertView.findViewById(R.id.tvItemDefense);
+        TextView tvItemSpeed = convertView.findViewById(R.id.tvItemSpeed);
+
+        tvItemName.setText(p.getNombre());
+        tvItemHp.setText("HP: " + p.getHp());
+        tvItemAttack.setText("Atk: " + p.getAtaque());
+        tvItemDefense.setText("Def: " + p.getDefensa());
+        tvItemSpeed.setText("Spd: " + p.getVelocidad());
+
         return convertView;
     }
 
