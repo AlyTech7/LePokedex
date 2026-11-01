@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,6 +30,7 @@ public class PokemonDetailActivity extends AppCompatActivity {
         TextView tvAttack = findViewById(R.id.tvAttack);
         TextView tvDefense = findViewById(R.id.tvDefense);
         TextView tvSpeed = findViewById(R.id.tvSpeed);
+        ImageView ivPokemonType = findViewById(R.id.ivPokemonType);
         Button btnSave = findViewById(R.id.btnSave);
         Button btnDelete = findViewById(R.id.btnDelete);
         Button btnBack = findViewById(R.id.btnBack);
@@ -45,6 +47,21 @@ public class PokemonDetailActivity extends AppCompatActivity {
         tvAttack.setText("Attack: " + p.getAtaque());
         tvDefense.setText("Defense: " + p.getDefensa());
         tvSpeed.setText("Speed: " + p.getVelocidad());
+
+        switch (p.getTipo()) {
+            case ELECTRIC:
+                ivPokemonType.setImageResource(R.drawable.ic_energia_electrico);
+                break;
+            case FIRE:
+                ivPokemonType.setImageResource(R.drawable.ic_energia_fuego);
+                break;
+            case WATER:
+                ivPokemonType.setImageResource(R.drawable.ic_energia_agua);
+                break;
+            case GRASS:
+                ivPokemonType.setImageResource(R.drawable.ic_energia_planta);
+                break;
+        }
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
