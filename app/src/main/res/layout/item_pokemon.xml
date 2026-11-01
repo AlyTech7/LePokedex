@@ -15,8 +15,7 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="18sp"
-        android:textStyle="bold"
-        tools:text="Pikachu" />
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,8 +32,7 @@
             android:gravity="center"
             android:textColor="@color/stat_hp"
             android:textSize="13sp"
-            android:textStyle="bold"
-            tools:text="HP: 35" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvItemAttack"
@@ -44,8 +42,7 @@
             android:gravity="center"
             android:textColor="@color/stat_attack"
             android:textSize="13sp"
-            android:textStyle="bold"
-            tools:text="Atk: 55" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvItemDefense"
@@ -55,8 +52,7 @@
             android:gravity="center"
             android:textColor="@color/stat_defense"
             android:textSize="13sp"
-            android:textStyle="bold"
-            tools:text="Def: 40" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvItemSpeed"
@@ -66,7 +62,6 @@
             android:gravity="center"
             android:textColor="@color/stat_speed"
             android:textSize="13sp"
-            android:textStyle="bold"
-            tools:text="Spd: 90" />
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>
