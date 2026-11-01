@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/stat_hp"
+            android:textColor="@color/black"
             android:textSize="13sp"
             android:textStyle="bold" />
 
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/stat_attack"
+            android:textColor="@color/black"
             android:textSize="13sp"
             android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/stat_defense"
+            android:textColor="@color/black"
             android:textSize="13sp"
             android:textStyle="bold" />
 
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
-            android:textColor="@color/stat_speed"
+            android:textColor="@color/black"
             android:textSize="13sp"
             android:textStyle="bold" />
     </LinearLayout>
